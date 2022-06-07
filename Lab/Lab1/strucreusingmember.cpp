@@ -18,22 +18,15 @@ int main ()
 {
     int i=0;
     ;
-
-
-
     for(i = 0; i < 5; i++)
     {
     cout<<"Enter the name of student: ";
     cin>> s[i].name; 
-
     cout<<"Enter the Roll of student: ";
     cin>> s[i].roll; 
-
     cout<<"Enter the Address of student: ";
     cin>> s[i].address; 
     }
-
-
     cout<<"Displaying the information of students" <<endl;
     cout<<"List of student";
     for( i = 0; i < 5; i++)

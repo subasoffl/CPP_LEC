@@ -8,6 +8,7 @@ struct student {
     int roll;
     char address[50];
 };
+
 int main ()
 {
     student s;
