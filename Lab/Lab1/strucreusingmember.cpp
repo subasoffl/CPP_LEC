@@ -42,6 +42,4 @@ int main ()
     cout<<"Roll No. : "<<s[i].roll <<endl;
     cout<<"Address : "<<s[i].address <<endl;
     }
-
-
 }
