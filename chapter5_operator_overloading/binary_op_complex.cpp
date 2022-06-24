@@ -19,8 +19,9 @@ class complex{
             cin>>imag;
         }
 
-        complex operator + (complex c1){
+        complex operator + (complex &c1){
             complex temp;
+            cout<<real<<endl<<imag<<endl; 
             temp.real = real + c1.real;
             temp.imag = imag + c1.imag;
             return temp;
@@ -39,5 +40,5 @@ int main(){
     obj3 = obj1+obj2;
     
     obj3.display();
-    
+
 }
