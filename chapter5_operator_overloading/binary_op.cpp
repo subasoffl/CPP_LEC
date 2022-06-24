@@ -3,7 +3,7 @@ using namespace std;
 
 class binary{
     private:
-        int a,b;
+        int a, b;
     public:
         binary(){
             a=0;
