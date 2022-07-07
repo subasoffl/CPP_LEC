@@ -81,7 +81,4 @@ int main()
     r.getdata();
     r.showdata();
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
+
