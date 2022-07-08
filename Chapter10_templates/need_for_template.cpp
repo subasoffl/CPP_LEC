@@ -60,6 +60,4 @@ int main()
     cout<<"Greater is"<<find_max(d1,d2)<<endl;
     char c1='a',c2='A';
     cout<<"Greater is"<<find_max(d1,d2)<<endl;
-
-
 }
