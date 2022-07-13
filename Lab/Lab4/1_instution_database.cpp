@@ -16,7 +16,7 @@ class staff
     void showdata()
     {
         cout<<"The code of staff is"<<code;
-        cout<<"Tje name of staff is"<<name;
+        cout<<"The name of staff is"<<name;
     }
 };
 class teacher:public staff
