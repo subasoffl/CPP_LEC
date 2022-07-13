@@ -19,8 +19,8 @@ class staff
         cout<<"The name of staff is"<<name;
     }
 };
-class teacher:public staff
-{
+class teacher:public staff{
+
     protected:
     char subject[50];
     char publication[50];
