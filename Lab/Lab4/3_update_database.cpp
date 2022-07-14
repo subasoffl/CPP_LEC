@@ -15,14 +15,14 @@ class person
     }
     void showdata()
     {
-        cout<<"Name is student is:"<<name;
+        cout<<"Name of student is:"<<name;
         cout<<"Code of student is:"<<code;
     }
     void update_data()
     {
-         cout<<"Enter the name of student:"<<endl;
+         cout<<"Enter the new name of student:"<<endl;
         cin>>name;
-        cout<<"Enter code of student:"<<endl;
+        cout<<"Enter new code of student:"<<endl;
         cin>>code;
         
     }
